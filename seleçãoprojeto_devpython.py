@@ -29,6 +29,7 @@ plt.show()
 df = np.dtype('float64')  # 64-bit floating-point number
 
 
+#Preço do litro gasolina e etanol no mês de abril 2021
 preco_litro_etanol = 4.27
 preco_litro_gasolina = 5.73
 
