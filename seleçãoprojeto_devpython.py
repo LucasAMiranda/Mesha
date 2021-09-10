@@ -44,8 +44,8 @@ df = df[['Estado', 'valor_compra']].groupby('Estado').max()
 print(df)
 
 
-media_por_litro = preco_litro_etanol / 0.7
-media_por_litro = preco_litro_gasolina / 0.7
+media_por_litro = preco_litro_etanol / preco_litro_gasolina
+media_por_litro = preco_litro_etanol / preco_litro_gasolina
 
 if preco_litro_etanol < 0.7:
     print("O álcool é melhor para abastercer e mais vantojoso")
